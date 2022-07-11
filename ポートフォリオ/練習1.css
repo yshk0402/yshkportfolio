@@ -1,0 +1,94 @@
+html,body{
+  width:100%;
+  margin:0;
+}
+header{
+  width:100%;
+  background-color:#222222;
+  margin-bottom:0;
+}
+header img{
+  align: center;
+  margin-top: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  margin-left: 94%;
+  width: 5%;
+  height: auto;
+}
+main{
+  height:300vh;
+}
+.motto {
+  height:33%;
+  background-image:url("back-green.jpg");
+}
+.motto img{
+  max-width:100%;
+}
+.motto h3{
+  margin:0;
+}
+.circle{
+  height:100%;
+  display: flex;
+  vertical-align: middle;
+  flex-wrap:wrap;
+  align-items: center;
+  margin-bottom: 0;
+}
+#circle1{
+  width: 33%;
+  border-radius: 50%;
+  padding-top: 33%;
+  background-color: skyblue;
+  position:relative;
+}
+.circle-innner1{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color:white;
+  text-align:right;
+}
+#circle2{
+  width: 33%;
+  border-radius: 50%;
+  padding-top: 33%;
+  background-color: skyblue;
+}
+#circle3{
+  width: 33%;
+  border-radius: 50%;
+  padding-top: 33%;
+  background-color: skyblue;
+}
+.service {
+  height:33%;
+  background-color:rgba(128,128,128,1);
+}
+.service h3{
+  margin:0;
+}
+.voice{
+  height:33%;
+  background-color:white;
+}
+.voice h3{
+  margin:0;
+}
+footer{
+  margin-bottom: 0;
+  padding: 5%;
+  background-color: #222222;
+}
+footer p{
+  display: block;
+  text-align:center;
+  color:white;
+}
+
+/*
+
+*/
